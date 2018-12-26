@@ -7,7 +7,7 @@
 package 'httpd'
 
 file '/var/www/html/index.html' do
-  content '<H1>Hello,World!</H1'
+  content '<H1>Hello,World!!</H1'
 end
 
 service 'httpd' do
